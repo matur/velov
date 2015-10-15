@@ -32,5 +32,3 @@ Example of call:
 curl -H "Content-Type: application/json" -X POST -d "@map1.json" "http://your-server.com:8080/solve.json?end=10030&begin=10121" | python -m json.tool
 
 ```
-
-Hint: Dijkstra knows how to escape the maze !
