@@ -1,0 +1,15 @@
+# Maven
+target/classes
+target/generated-sources
+target/maven-archiver
+target/maven-status
+
+
+# IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# MacOS
+.DS_Store
