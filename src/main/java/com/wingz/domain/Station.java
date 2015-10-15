@@ -6,9 +6,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 /**
  * Created by MMATUR on 14JsonIdentityInfo/10/2015.
@@ -16,7 +14,6 @@ import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 @Getter
 @Setter
 @NoArgsConstructor
-@JsonIdentityInfo(generator = ObjectIdGenerators.UUIDGenerator.class, property="@UUID")
 public class Station implements Comparable<Station> {
 
     @JsonProperty
