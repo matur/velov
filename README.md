@@ -3,7 +3,7 @@ Main objective:
 Find a path from BEGIN to END within points provided.
 
 How it works:
-* Run server with "java -jar target/velov-1.0-SNAPSHOT.jar" command
+* Run server with "java -jar target/velov-1.0-SNAPSHOT.jar --server.port=4242" command
 * Call api with 2 parameter and one post-body
     * Parameters:
         * start => Contains the ID of the departure point
